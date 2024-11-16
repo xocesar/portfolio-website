@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { RiTwitterXFill } from "react-icons/ri";
+import { ImMail } from "react-icons/im";
+
 
 
 function PageHeader() {
@@ -26,12 +26,10 @@ function PageHeader() {
           <Link className="text-3xl hover:text-[#333]" href={"https://github.com/xocesar"}>
             <FaGithubSquare />
           </Link>
-          <Link className="text-3xl hover:text-[#E4405F]" href={"https://www.instagram.com/xocesarr/"}>
-            <FaSquareInstagram />
+          <Link className="flex gap-2 text-3xl hover:text-black" href="mailto:cquesada1611@outlook.com">
+          <ImMail />
           </Link>
-          <Link className="text-3xl hover:text-black" href={"https://x.com/xocesal"}>
-            <RiTwitterXFill />
-          </Link>
+          
           </div>
         </div>
         
