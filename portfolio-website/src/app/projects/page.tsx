@@ -1,17 +1,14 @@
 import React from "react";
-import PageHeader from "@/components/Header/index";
+import ProjectsHeader from "./(components)/Header/index";
+import ProjectGrid from "./(components)/project-cards/index";
 
 export default function MyProjects() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-[#eedccd] text-[#3b580c]">
-      {/* Centered Content */}
-      <div className="p-24 rounded-3xl bg-[#d3c3b7] ">
-      <h1 className="font-extrabold text-4xl">Coming Soon!</h1>
+    <div className="flex flex-col min-h-screen bg-[#eedccd] text-[#3b580c]">
+      <div className="pt-20">
+        <ProjectsHeader />
+        <ProjectGrid />
       </div>
-       
-       
-        
-      
     </div>
   );
 }
