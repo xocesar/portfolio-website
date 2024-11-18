@@ -5,17 +5,18 @@ function ProjectGrid() {
   const projects = [
     {
       title: "Personal Portfolio Website",
-      description: "My personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.",
+      description: "Designed and developed my personal portfolio website to showcase my projects and skills.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
       imageSrc: "/projects/portfolio.png",
       githubUrl: "https://github.com/xocesar/portfolio-website",
       demoUrl: "https://cesarquesada.dev"
     },
-    //todo: add when finished
     // {
     //   title: "The Four Brothers Home Care Website",
-    //   description: "A website for a nursing home in Puerto Rico. Created with Next.js, TypeScript, and Tailwind CSS.",
-    //   imageSrc: "/projects/project2.png",
-    //   demoUrl: "https://demo-url.com"
+    //   description: "Designed and developed a website for a nursing home in Puerto Rico.",
+    //   tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    //   imageSrc: "/projects/4brothers.png",
+    //   demoUrl: "https://4brothers.vercel.app/",
     // },
     
   ];
@@ -27,6 +28,7 @@ function ProjectGrid() {
           key={index}
           title={project.title}
           description={project.description}
+          tags={project.tags}
           imageSrc={project.imageSrc}
           githubUrl={project.githubUrl}
           demoUrl={project.demoUrl}
