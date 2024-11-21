@@ -17,12 +17,12 @@ interface ProjectCardProps {
 function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, isLastOdd }: ProjectCardProps) {
   return (
     <div className={`bg-gray-700/10 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2' : ''}`}>
-      <div className="relative h-48 w-full">
+      <div className="relative h-60 w-full">
         <Image
           src={imageSrc}
           alt={title}
           fill
-          className="object-cover"
+          className="object-cover object-top"
         />
       </div>
       
