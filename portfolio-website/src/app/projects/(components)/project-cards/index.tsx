@@ -1,8 +1,6 @@
-"use client"
 
 import React, { useState, useEffect } from "react";
 import ProjectCard from "./cards";
-import { getScreenshot } from "@/utils/screenshot";
 
 interface Project {
   title: string;
@@ -23,17 +21,17 @@ function ProjectGrid() {
         title: "Personal Portfolio Website",
         description: "Designed and developed my personal portfolio website to showcase my projects and skills.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: getScreenshot("https://cesarquesada.dev"),
+        imageSrc:"/projects/portfolio.png",
         githubUrl: "https://github.com/xocesar/portfolio-website",
         demoUrl: "https://cesarquesada.dev"
       },
-      {
-        title: "The Four Brothers Home Care Website", 
-        description: "Designed and developed a website for a nursing home in Toa Baja, Puerto Rico.",
-        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: getScreenshot("https://4brothers.vercel.app"),
-        demoUrl: "https://4brothers.vercel.app/",
-      },
+      // {
+      //   title: "The Four Brothers Home Care Website", 
+      //   description: "Designed and developed a website for a nursing home in Toa Baja, Puerto Rico.",
+      //   tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+      //   imageSrc: "",
+      //   demoUrl: "https://4brothers.vercel.app/",
+      // },
     ];
     
     setProjects(projectsData);
