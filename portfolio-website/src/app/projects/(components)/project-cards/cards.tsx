@@ -8,7 +8,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   tags: string[];
-  imageSrc: string;
+  imageSrc: string | null;
   githubUrl?: string;
   demoUrl?: string;
   isLastOdd?: boolean;
@@ -18,12 +18,14 @@ function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, i
   return (
     <div className={`bg-gray-700/10 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2' : ''}`}>
       <div className="relative h-60 w-full">
-        <Image
-          src={imageSrc}
-          alt={title}
-          fill
-          className="object-cover object-top"
-        />
+        {imageSrc && (
+          <Image
+            src={imageSrc}
+            alt={title}
+            fill
+            className="object-cover object-top"
+          />
+        )}
       </div>
       
       <div className="p-6">
