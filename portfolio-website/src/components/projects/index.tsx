@@ -6,7 +6,7 @@ interface Project {
   title: string;
   description: string;
   tags: string[];
-  imageSrc: string;
+  imageSrc: string | null;
   githubUrl?: string;
   demoUrl: string;
 }
@@ -20,7 +20,7 @@ function ProjectGrid() {
         title: "Personal Portfolio Website",
         description: "Designed and developed my personal portfolio website to showcase my projects and skills.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc:"/projects/portfolio.png",
+        imageSrc: "/projects/portfolio.png",
         githubUrl: "https://github.com/xocesar/portfolio-website",
         demoUrl: "https://cesarquesada.dev"
       },
@@ -28,7 +28,7 @@ function ProjectGrid() {
         title: "The Four Brothers Home Care Website", 
         description: "Designed and developed a website for a nursing home in Toa Baja, Puerto Rico.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: "",
+        imageSrc: null,
         demoUrl: "https://4brothers.vercel.app/",
       },
     ];

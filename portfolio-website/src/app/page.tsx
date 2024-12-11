@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ProjectGrid from "@/components/projects";
 import PageHeader from "@/components/header/index"
