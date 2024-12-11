@@ -11,7 +11,7 @@ export const scrollToSection = (id: string) => {
   element?.scrollIntoView({ behavior: 'smooth' });
 };
 
-function PageHeader() {
+function Header() {
   return (
     <div className="min-h-screen flex flex-col justify-between items-center">
       <div className="flex-1 flex items-center">
@@ -47,4 +47,4 @@ function PageHeader() {
   )
 }
 
-export default PageHeader;
+export default Header;
