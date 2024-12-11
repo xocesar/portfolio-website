@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import ProjectGrid from "@/components/projects";
-import PageHeader from "@/components/header";
+import PageHeader from "@/components/header/index";
 import AboutMe from "@/components/about-me";
 
 export default function Home() {
