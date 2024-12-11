@@ -2,7 +2,7 @@
 import React from "react";
 import ProjectGrid from "@/components/projects";
 import AboutMe from "@/components/about-me";
-import Header from "@/components/header";
+import Header from "@/components/page-header";
 
 export default function Home() {
   return (
