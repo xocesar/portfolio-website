@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsHeader from "./(components)/Header/index";
+import ProjectsHeader from "@/app/projects/(components)/project-header/index";
 import ProjectGrid from "../../components/projects/index";
 
 export default function MyProjects() {
