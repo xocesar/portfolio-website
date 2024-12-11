@@ -1,5 +1,4 @@
 import React from "react";
-import PageHeader from "@/components/header/index";
 
 export default function AboutMe() {
   return (
