@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectsHeader() {
+function ProjectHeader() {
   return (
     <div className="flex flex-col items-center md:items-start text-center md:text-left mb-8 max-w-4xl mx-auto px-4">
       <h1 className="text-4xl font-extrabold mb-4">My Projects</h1>
@@ -11,4 +11,4 @@ function ProjectsHeader() {
   );
 }
 
-export default ProjectsHeader;
+export default ProjectHeader;
