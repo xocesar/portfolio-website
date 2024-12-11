@@ -1,8 +1,7 @@
 import React from "react";
-import PageHeader from '@/components/header'
+import PageHeader from '@/components/header/index'
 import ProjectGrid from "@/components/projects";
 import AboutMe from "@/components/about-me";
-import { scrollToSection } from "@/components/header/index";
 
 export default function Home() {
   return (
