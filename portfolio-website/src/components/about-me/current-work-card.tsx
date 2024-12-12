@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
-import { HiExternalLink } from "react-icons/hi";
 
 interface WorkCardProps {
   title: string;
@@ -16,9 +14,9 @@ interface WorkCardProps {
 
 function WorkCard({ title, description, tags, icon, url, startDate, endDate }: WorkCardProps) {
   return (
-    <div className={`bg-gray-700/10 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full`}>
+    <div className={`bg-gray-400 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full mt-4`}>
       <div className="p-6">
-        <div className="flex flex-col items-start justify-center gap-4 mb-4">
+        <div className="flex flex-col items-start justify-center gap-2 mb-4">
           <div className="relative">
             {icon && (
               <Image
@@ -41,7 +39,7 @@ function WorkCard({ title, description, tags, icon, url, startDate, endDate }: W
             </span>
           ))}
         </div>
-        <p className="text-gray-700 mb-4">{description}</p>
+        <p className="text-black mb-4">{description}</p>
         
         <div className="flex gap-4">
           {url && (
