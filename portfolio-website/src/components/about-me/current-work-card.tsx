@@ -10,9 +10,11 @@ interface WorkCardProps {
   tags: string[];
   icon: string | null;
   url?: string;
+  startDate: string;
+  endDate: string;
 }
 
-function WorkCard({ title, description, tags, icon, url  }: WorkCardProps) {
+function WorkCard({ title, description, tags, icon, url, startDate, endDate }: WorkCardProps) {
   return (
     <div className={`bg-gray-700/10 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full`}>
       <div className="p-6">
@@ -29,6 +31,7 @@ function WorkCard({ title, description, tags, icon, url  }: WorkCardProps) {
             )}
           </div>
           <h3 className="text-2xl font-bold text-center">{title}</h3>
+          <p className="text-md font-semibold text-black">{startDate} - {endDate}</p>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">

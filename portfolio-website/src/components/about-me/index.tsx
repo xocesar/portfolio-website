@@ -16,7 +16,10 @@ export default function AboutMe() {
          description="I am currently working at Enalca as a Fullstack developer working on websites built on Next.js framework on the frontend and backend side" 
          tags={["Next.js", "React", ".NET", "Prisma"]} 
          icon="https://enalca.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fenalca-logo.25dd6e99.png&w=256&q=75" 
-         url="https://www.enalca.com" />
+         url="https://www.enalca.com"
+         startDate="2024"
+         endDate="Present"
+          />
 
       </div>
       
