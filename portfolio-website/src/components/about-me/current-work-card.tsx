@@ -14,7 +14,7 @@ interface WorkCardProps {
 
 function WorkCard({ title, description, tags, icon, url, startDate, endDate }: WorkCardProps) {
   return (
-    <div className={`bg-gray-400 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full mt-4`}>
+    <div className={`bg-[#c6d6ab] rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full mt-4`}>
       <div className="p-6">
         <div className="flex flex-col items-start justify-center gap-2 mb-4">
           <div className="relative">

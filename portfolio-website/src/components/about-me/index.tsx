@@ -23,7 +23,7 @@ export default function AboutMe() {
 
       </div>
       
-      <button className="bg-black text-white px-4 py-2 rounded-md">View more</button>
+      {/* <button className="bg-black text-white px-4 py-2 rounded-md">View more</button> */}
     </div>
     )
 }

@@ -28,7 +28,7 @@ function ProjectGrid() {
         title: "The Four Brothers Home Care Website", 
         description: "Designed and developed a website for a nursing home in Toa Baja, Puerto Rico.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: null,
+        imageSrc: "/projects/4brothers.png",
         demoUrl: "https://4brothers.vercel.app/",
       },
     ];
@@ -55,7 +55,7 @@ function ProjectGrid() {
           />
         ))}
       </div>
-      <button className="bg-black text-white px-4 py-2 rounded-md">View All Projects</button>
+      {/* <button className="bg-black text-white px-4 py-2 rounded-md">View All Projects</button> */}
     </div>
     
   );

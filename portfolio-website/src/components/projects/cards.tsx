@@ -16,7 +16,7 @@ interface ProjectCardProps {
 
 function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, isLastOdd }: ProjectCardProps) {
   return (
-    <div className={`bg-gray-700/10 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2' : ''}`}>
+    <div className={`bg-[#c6d6ab] rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2' : ''}`}>
       <div className="relative h-60 w-full">
         {imageSrc && (
           <Image
