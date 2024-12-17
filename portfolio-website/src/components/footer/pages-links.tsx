@@ -5,7 +5,7 @@ import { FaHome, FaProjectDiagram, FaUser } from "react-icons/fa";
 function PagesLinks() {
   return (
     <div className="flex flex-col space-y-6 p-4">
-      <h1 className="text-lg md:text-2xl font-bold">Site Navigation</h1>
+      <h1 className="text-lg md:text-2xl font-bold">Pages:</h1>
       <ul className="flex flex-col gap-4">
         <li>
             <Link 
