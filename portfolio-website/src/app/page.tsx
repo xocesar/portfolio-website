@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
 import ProjectGrid from "@/components/projects";
 import AboutMe from "@/components/about-me";
 import Header from "@/components/page-header";

@@ -6,21 +6,23 @@ interface SkillsEntryProps {
   description: string;
   logo: React.ElementType;
   backgroundColor?: string;
+  textColor?: string;
 }
 
 const SkillsEntry: React.FC<SkillsEntryProps> = ({
   title,
   description,
   logo: Logo,
-  backgroundColor = '#c6d6ab'
+  backgroundColor = '#c6d6ab',
+  textColor = 'black'
 }) => {
   return (
-   <div className={`flex flex-col gap-2 w-[120px] rounded-lg p-2`} style={{ backgroundColor }}>
+   <div className={`flex flex-col gap-2 rounded-lg p-2 hover:shadow-xl transition-shadow duration-300`} style={{ backgroundColor, color: textColor }}>
     <div className="flex items-center gap-2">
       <Logo size={32} />
       <h3 className="text-xl font-bold">{title}</h3>
     </div>
-    <p className="text-gray-700">{description}</p>
+    <p>{description}</p>
    </div>
   );
 };

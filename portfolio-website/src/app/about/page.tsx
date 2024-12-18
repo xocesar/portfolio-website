@@ -26,22 +26,64 @@ export default function AboutMe() {
       <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
         {/* Education and Experience */}
         <h2 className="font-extrabold text-3xl">Skills:</h2>
-        <div className="flex flex-wrap gap-2">
+        <div className="py-4 grid grid-cols-2 md:grid-cols-5 gap-4">
           
           <SkillsEntry 
           title="React" 
           description="Framework" 
           logo={FaReact}
-          backgroundColor="#5be376"
+          backgroundColor="#61dbfb"
+          />
+
+          <SkillsEntry 
+          title="Next.js" 
+          description="Framework" 
+          logo={FaReact}
+          backgroundColor="#000000"
+          textColor="#ffffff"
+          />
+
+          <SkillsEntry 
+          title="Prisma" 
+          description="ORM" 
+          logo={FaReact}
+          backgroundColor="#ffffff"
+          textColor="#000000"
+          />
+
+          <SkillsEntry 
+          title="Typescript" 
+          description="Language" 
+          logo={FaReact}
+          backgroundColor="#007acc"
+          textColor="#ffffff"
+          />
+
+          <SkillsEntry 
+          title="Tailwind" 
+          description="Framework" 
+          logo={FaReact}
+          backgroundColor="#A5F3FC"
+          textColor="#000000"
+          />
+
+          <SkillsEntry 
+          title="C#" 
+          description="Language" 
+          logo={FaReact}
+          backgroundColor="#9b4993"
+          textColor="#ffffff"
           />
          
         </div>
          
         <h1 className="font-extrabold text-3xl">Education:</h1>
         <ul>
-          <li>
-            {/* Education Card */}
-          </li>
+              <WorkEntry 
+              title="Computer Engineering" 
+              company="Universidad Politecnica de Puerto Rico" 
+              duration="2018 - 2024" 
+              description="I graduated from the University Politecnica de Puerto Rico with a Bachelor of Science in Computer Engineering." />
         </ul>
 
       </div>
