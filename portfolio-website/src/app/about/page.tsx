@@ -9,6 +9,15 @@ export default function AboutMe() {
       <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
         {/* Personal Information */}
         <div className="flex flex-col w-full">
+        <h1 className="font-extrabold text-3xl">Education:</h1>
+        <ul>
+              <WorkEntry 
+              title="Computer Engineering" 
+              company="Universidad Politecnica de Puerto Rico" 
+              duration="2018 - 2024" 
+              description="I graduated from the University Politecnica de Puerto Rico with a Bachelor of Science in Computer Engineering." />
+        </ul>
+
           <h1 className="font-extrabold text-3xl">Work Experience:</h1>
           <ul className="list-inside">
               {/* Work Card */}
@@ -26,7 +35,7 @@ export default function AboutMe() {
       <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
         {/* Education and Experience */}
         <h2 className="font-extrabold text-3xl">Skills:</h2>
-        <div className="py-4 grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="py-4 grid grid-cols-3 md:grid-cols-5 gap-4">
           
           <SkillsEntry 
           title="React" 
@@ -77,14 +86,7 @@ export default function AboutMe() {
          
         </div>
          
-        <h1 className="font-extrabold text-3xl">Education:</h1>
-        <ul>
-              <WorkEntry 
-              title="Computer Engineering" 
-              company="Universidad Politecnica de Puerto Rico" 
-              duration="2018 - 2024" 
-              description="I graduated from the University Politecnica de Puerto Rico with a Bachelor of Science in Computer Engineering." />
-        </ul>
+        
 
       </div>
 
