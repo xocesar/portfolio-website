@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import WorkCard from "@/components/about-me/current-work-card";
+import Technologies from "@/components/nav-bar/technologies";
 
 export default function AboutMe() {
   return (
@@ -14,7 +15,7 @@ export default function AboutMe() {
       </div>
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
         <h1 className="text-4xl font-extrabold">Technologies I&apos;ve worked with:</h1>
-        {/* TODO: Add a list of technologies I&apos;ve worked with */}
+        <Technologies/>
         <h1 className="text-4xl font-extrabold">Current Work:</h1>
         <WorkCard
          title="Fullstack Developer" 

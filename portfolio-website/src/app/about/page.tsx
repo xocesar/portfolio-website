@@ -1,7 +1,6 @@
 import React from "react";
 import WorkEntry from "@/app/about/(components)/work-card";
-import SkillsEntry from "@/app/about/(components)/skills";
-import { FaReact } from "react-icons/fa";
+import Technologies from "@/components/nav-bar/technologies";
 
 export default function AboutMe() {
   return (
@@ -31,64 +30,10 @@ export default function AboutMe() {
           </ul>
         </div>
       </div>
-
-      <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
-        {/* Education and Experience */}
-        <h2 className="font-extrabold text-3xl">Skills:</h2>
-        <div className="py-4 grid grid-cols-3 md:grid-cols-5 gap-4">
-          
-          <SkillsEntry 
-          title="React" 
-          description="Framework" 
-          logo={FaReact}
-          backgroundColor="#61dbfb"
-          />
-
-          <SkillsEntry 
-          title="Next.js" 
-          description="Framework" 
-          logo={FaReact}
-          backgroundColor="#000000"
-          textColor="#ffffff"
-          />
-
-          <SkillsEntry 
-          title="Prisma" 
-          description="ORM" 
-          logo={FaReact}
-          backgroundColor="#ffffff"
-          textColor="#000000"
-          />
-
-          <SkillsEntry 
-          title="Typescript" 
-          description="Language" 
-          logo={FaReact}
-          backgroundColor="#007acc"
-          textColor="#ffffff"
-          />
-
-          <SkillsEntry 
-          title="Tailwind" 
-          description="Framework" 
-          logo={FaReact}
-          backgroundColor="#A5F3FC"
-          textColor="#000000"
-          />
-
-          <SkillsEntry 
-          title="C#" 
-          description="Language" 
-          logo={FaReact}
-          backgroundColor="#9b4993"
-          textColor="#ffffff"
-          />
-         
-        </div>
-         
-        
-
-      </div>
+    <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
+      <h2 className="font-extrabold text-3xl">Technologies I've worked with:</h2>
+     <Technologies/>
+    </div>
 
        {/*more sections can be added in the future if needed */}
       

@@ -1,7 +1,6 @@
-// src/app/about/(components)/work-card/index.tsx
 import React from 'react';
 
-interface SkillsEntryProps {
+  interface TechnologiesEntryProps {
   title: string;
   description: string;
   logo: React.ElementType;
@@ -9,7 +8,7 @@ interface SkillsEntryProps {
   textColor?: string;
 }
 
-const SkillsEntry: React.FC<SkillsEntryProps> = ({
+const TechnologiesEntry: React.FC<TechnologiesEntryProps> = ({
   title,
   description,
   logo: Logo,
@@ -27,4 +26,4 @@ const SkillsEntry: React.FC<SkillsEntryProps> = ({
   );
 };
 
-export default SkillsEntry;
+export default TechnologiesEntry;
