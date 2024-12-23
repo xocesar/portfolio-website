@@ -1,5 +1,5 @@
 import { FaReact } from "react-icons/fa";
-import TechnologiesEntry from "@/components/nav-bar/technologies/skill_tag";
+import TechnologiesEntry from "@/components/technologies/skill_tag";
 
 export function Technologies() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import WorkEntry from "@/app/about/(components)/work-card";
-import Technologies from "@/components/nav-bar/technologies";
+import Technologies from "@/components/technologies";
 
 export default function AboutMe() {
   return (
