@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
         <h1 className="text-4xl font-extrabold">About Me</h1>
         <p className="text-lg text-gray-600 text-justify">
-          I&apos;m a software engineer from Bayamon, Puerto Rico. I strive to always learn and grow with a passion for creating innovative solutions and a strong work ethic.
+          I&apos;m a Computer Engineer from Bayamon, Puerto Rico currently working as a Fullstack web developer. I strive to always learn and grow with a passion for creating innovative solutions and a strong work ethic.
           I am actively searching and learning from different technologies and frameworks to become a better developer.
         </p>
       </div>
