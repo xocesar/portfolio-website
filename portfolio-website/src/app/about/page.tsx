@@ -31,7 +31,7 @@ export default function AboutMe() {
         </div>
       </div>
     <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
-      <h2 className="font-extrabold text-3xl">Technologies I've worked with:</h2>
+      <h2 className="font-extrabold text-3xl">Technologies I&apos;ve worked with:</h2>
      <Technologies/>
     </div>
 
