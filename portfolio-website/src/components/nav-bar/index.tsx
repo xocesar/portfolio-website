@@ -37,7 +37,7 @@ function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto p-4 flex justify-center items-center font-semibold">
-        <ul className="flex gap-4">
+        <ul className="flex gap-10">
           <li>
             <Link href="/" className="hover:underline">
               Home
@@ -45,14 +45,14 @@ function Navbar() {
           </li>
           <li>
             <Link href="/about" className="hover:underline">
-              About
+              About Me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/projects" className="hover:underline">
               Projects
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

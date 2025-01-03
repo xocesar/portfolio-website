@@ -22,7 +22,7 @@ function Header() {
           <div className="max-w-72">
             {/* Text */}
             <h1 className="text-3xl text-center md:text-justify font-bold">Cesar A. Quesada</h1>
-            <h2 className="text-xl text-center md:text-justify font-medium">Fullstack developer with a focus on frontend development</h2>
+            <h2 className="text-xl text-center md:text-justify font-medium">Fullstack developer</h2>
             <p className="text-base text-center md:text-justify text-gray-700">Bayamon, Puerto Rico</p>
 
             {/* Links */}

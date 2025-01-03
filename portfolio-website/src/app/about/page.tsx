@@ -1,42 +1,24 @@
 import React from "react";
-import WorkEntry from "@/app/about/(components)/work-card";
+import WorkCard from "@/app/about/(components)/work-card/index";
+import EducationCard from "@/app/about/(components)/education-card/index";
+import CertificationCard from "@/app/about/(components)/certification-card/index";
 import Technologies from "@/components/technologies";
+import Header from "@/app/about/(components)/header/index";
 
 export default function AboutMe() {
   return (
     <div className="flex flex-col pt-20 w-full bg-[#eedccd] text-[#3b580c]">
-      <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
-        {/* Personal Information */}
-        <div className="flex flex-col w-full">
-        <h1 className="font-extrabold text-3xl">Education:</h1>
-        <ul>
-              <WorkEntry 
-              title="Computer Engineering" 
-              company="Universidad Politecnica de Puerto Rico" 
-              duration="2018 - 2024" 
-              description="I graduated from the University Politecnica de Puerto Rico with a Bachelor of Science in Computer Engineering." />
-        </ul>
-
-          <h1 className="font-extrabold text-3xl">Work Experience:</h1>
-          <ul className="list-inside">
-              {/* Work Card */}
-              <WorkEntry 
-              title="Fullstack Developer" 
-              company="Enalca" 
-              duration="2024 - Present" 
-              description="I am currently working at Enalca as a Fullstack developer working on websites built on Next.js framework on the frontend and backend side" />
-
-              
-          </ul>
-        </div>
-      </div>
-    <div className="flex flex-col items-start max-w-4xl mx-auto w-full px-4">
-      <h2 className="font-extrabold text-3xl">Technologies I&apos;ve worked with:</h2>
+      <Header/>
+      <WorkCard/>
+      <EducationCard/>
+      
+      
+      <div className="flex flex-col items-start max-w-4xl mx-auto w-full p-4">
+      <h2 className="font-extrabold text-3xl">Technologies used</h2>
      <Technologies/>
     </div>
 
-       {/*more sections can be added in the future if needed */}
-      
+    <CertificationCard/>
     </div>
   );
 }
