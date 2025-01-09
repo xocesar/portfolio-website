@@ -1,4 +1,7 @@
 import { FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
 import TechnologiesEntry from "@/components/technologies/skill_tag";
 
 export function Technologies() {
@@ -8,7 +11,7 @@ export function Technologies() {
       <div className="py-4 grid grid-cols-3 md:grid-cols-5 gap-4">
           <TechnologiesEntry 
           title="React" 
-          description="Framework" 
+          description="JavaScript Library" 
           logo={FaReact}
           backgroundColor="#61dbfb"
         />
@@ -16,7 +19,7 @@ export function Technologies() {
         <TechnologiesEntry 
           title="Next.js" 
           description="Framework" 
-          logo={FaReact}
+          logo={SiNextdotjs}
           backgroundColor="#000000"
           textColor="#ffffff"
         />
@@ -24,7 +27,7 @@ export function Technologies() {
         <TechnologiesEntry 
           title="Prisma" 
           description="ORM" 
-          logo={FaReact}
+          logo={SiPrisma}
           backgroundColor="#ffffff"
           textColor="#000000"
         />
@@ -32,7 +35,7 @@ export function Technologies() {
         <TechnologiesEntry 
           title="Typescript" 
           description="Language" 
-          logo={FaReact}
+          logo={SiTypescript}
           backgroundColor="#007acc"
           textColor="#ffffff"
         />
@@ -40,7 +43,7 @@ export function Technologies() {
         <TechnologiesEntry 
           title="Tailwind" 
           description="Framework" 
-          logo={FaReact}
+          logo={SiTailwindcss}
           backgroundColor="#A5F3FC"
           textColor="#000000"
         />
@@ -48,7 +51,7 @@ export function Technologies() {
         <TechnologiesEntry 
           title="C#" 
           description="Language" 
-          logo={FaReact}
+          logo={SiCsharp}
           backgroundColor="#9b4993"
           textColor="#ffffff"
         />
