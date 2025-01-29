@@ -41,6 +41,7 @@ function Header() {
         </div>
       </div>
       <div className="pb-16">
+        <p className="text-center text-2xl">learn more about me</p>
         <button onClick={() => scrollToSection('about-me')} className="bg-[#c7b8ac] hover:bg-[#3b580c] transition-colors duration-300 text-[#3b580c] hover:text-white rounded-full text-4xl"><FaCircleArrowDown /></button>
       </div>
     </div>
