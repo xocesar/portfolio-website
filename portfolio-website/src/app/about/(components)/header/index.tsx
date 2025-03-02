@@ -6,7 +6,7 @@ export default function Header() {
     <div className="flex flex-col w-full bg-[#eedccd] pb-2">
       <div className="flex md:flex-row flex-col md:items-start items-center max-w-4xl mx-auto w-full px-4">
         <div className="flex flex-col pt-4 ">
-            <Image src="/PROFILE IMAGE.jpg" alt="Profile" className="w-auto h-auto object-cover rounded-3xl" width={300} height={300} />
+            <Image src="/pfp.jpeg" alt="Profile" className="w-auto h-auto object-cover rounded-3xl" width={300} height={300} />
         </div>
         
         <div className="flex flex-col pt-4 px-0 md:px-4 max-w-lg">
