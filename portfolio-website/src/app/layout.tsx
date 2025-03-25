@@ -23,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className}>
       <body>
-        <Navbar/>
+        {/* not using the navbar currently so commenting it for now */}
+        {/* <Navbar/> */}
+
         {children}
         <Footer />
         <SpeedInsights/>

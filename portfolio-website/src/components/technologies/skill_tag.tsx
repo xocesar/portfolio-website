@@ -16,12 +16,12 @@ const TechnologiesEntry: React.FC<TechnologiesEntryProps> = ({
   textColor = 'black'
 }) => {
   return (
-   <div className={`flex flex-col gap-2 rounded-lg p-2 hover:shadow-xl transition-shadow duration-300`} style={{ backgroundColor, color: textColor }}>
+   <div className={`flex flex-col gap-2 rounded-lg p-2 hover:shadow-xl transition-shadow duration-300 w-36`} style={{ backgroundColor, color: textColor }}>
     <div className="flex items-center gap-2">
       <Logo size={32} />
-      <h3 className="text-xl font-bold">{title}</h3>
+      <h3 className="text-lg font-bold">{title}</h3>
     </div>
-    <p>{description}</p>
+    <p className='text-sm'>{description}</p>
    </div>
   );
 };

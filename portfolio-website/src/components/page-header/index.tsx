@@ -17,7 +17,7 @@ function Header() {
       <div className="flex-1 flex items-center">
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-4xl md:space-x-6 md:space-y-0 space-y-10">
           {/* Profile image */}
-          <Image src={"/logo.png"} alt={"Profile Image"} width={150} height={150} />
+          <Image src={"/pfp.jpeg"} alt={"Profile Image"} width={150} height={150} className="rounded-full" />
 
           <div className="max-w-72">
             {/* Text */}
@@ -40,8 +40,9 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="pb-16">
+      <div className="pb-16 items-center flex flex-col gap-3 ">
         <button onClick={() => scrollToSection('about-me')} className="bg-[#c7b8ac] hover:bg-[#3b580c] transition-colors duration-300 text-[#3b580c] hover:text-white rounded-full text-4xl"><FaCircleArrowDown /></button>
+        <p>Learn More</p>
       </div>
     </div>
   )
