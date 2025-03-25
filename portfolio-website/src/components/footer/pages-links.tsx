@@ -16,15 +16,7 @@ function PagesLinks() {
               <span>Home</span>
             </Link>
         </li>
-        <li>
-            <Link 
-              className="flex items-center gap-3 hover:text-purple-600 transition-colors duration-300 text-md" 
-              href={"/projects"}
-            >
-              <FaProjectDiagram className="text-lg" />
-              <span>Projects</span>
-            </Link>
-        </li>
+        
         <li>
             <Link 
               className="flex items-center gap-3 hover:text-green-600 transition-colors duration-300 text-md" 

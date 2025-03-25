@@ -1,4 +1,4 @@
-"use client"
+
 import React from "react";
 import ProjectGrid from "@/components/projects";
 import AboutMe from "@/components/about-me";

@@ -10,7 +10,7 @@ function Footer() {
       </div>
 
       <div>
-            <PagesLinks />
+            {/* <PagesLinks /> */}
       </div>
         
     </div>
