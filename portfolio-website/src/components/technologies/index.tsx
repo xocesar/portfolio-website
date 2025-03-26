@@ -6,9 +6,9 @@ import TechnologiesEntry from "@/components/technologies/skill_tag";
 
 export function Technologies() {
   return (
-    <div className="flex flex-col p-4 items-start max-w-4xl mx-auto w-full px-4">
+    <div className="flex flex-col items-center max-w-4xl mx-auto w-full">
       {/* Education and Experience */}
-      <div className="py-4 grid grid-cols-3 md:grid-cols-5 gap-4">
+      <div className="py-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4">
           <TechnologiesEntry 
           title="React" 
           description="JavaScript Library" 
