@@ -18,11 +18,12 @@ const TechnologiesEntry: React.FC<TechnologiesEntryProps> = ({
 }) => {
   return (
    <motion.div
-   whileHover={{scale:1.10}}
+   whileHover={{scale:1.05}}
    whileTap={{scale:0.95}}
    drag={true}
    dragSnapToOrigin={true}
-   dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+   dragConstraints={{ top: 0, left: 0, right: 0, bottom:0 }}
+   dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
     className={`flex flex-col gap-2 rounded-lg p-2 hover:shadow-2xl transition-shadow duration-300 w-30 md:w-36 hover:z-99`} style={{ backgroundColor, color: textColor }}
     >
     <Logo size={32} />
