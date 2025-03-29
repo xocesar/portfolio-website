@@ -16,7 +16,7 @@ export default function Home() {
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ root: scrollRef }}
-      transition={{type: "anticipate", duration: 0.75}}
+      transition={{type: "anticipate", duration: 1}}
       >
         <Header />
       </motion.div>
