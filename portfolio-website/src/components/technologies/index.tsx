@@ -8,7 +8,7 @@ export function Technologies() {
   return (
     <div className="flex flex-col items-center max-w-4xl mx-auto w-full">
       {/* Education and Experience */}
-      <div className="py-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4">
+      <div className="py-4 grid sm:grid-cols-5 grid-cols-3 gap-4">
           <TechnologiesEntry 
           title="React" 
           description="JavaScript Library" 
