@@ -1,6 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import ProjectCard from "./project-card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
+
 
 interface Project {
   title: string;
@@ -40,6 +49,8 @@ function ProjectGrid() {
     return <div>No projects yet, I am working on it!</div>;
   }
 
+
+
   return (
     <div className="flex flex-col items-center justify-center border-t-2 border-[#3b580c] pt-8 pb-16">
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
@@ -48,18 +59,35 @@ function ProjectGrid() {
           Here are some of the projects I have worked on. Feel free to check them out on GitHub or view the live demo.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto px-4 py-4">
+      {/* This is for small displays because the carousel componnent is tricky on smaller displays */}
+      <div className="flex flex-col gap-4 w-full px-4 md:hidden">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
             {...project}
-            isLastOdd={projects.length % 2 !== 0 && index === projects.length - 1}
           />
         ))}
       </div>
-      {/* <button className="bg-black text-white px-4 py-2 rounded-md">View All Projects</button> */}
+
+      {/* carousel view of the projects */}
+      <Carousel
+        className="w-full lg:max-w-4xl md:max-w-2xl md:block hidden"
+      >
+        <CarouselContent>
+          {projects.map((project, index) => (
+            <CarouselItem key={index}>
+              <div className="p-1">
+                <ProjectCard
+                  {...project}
+                />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious className="bg-white/45"/>
+        <CarouselNext className="bg-white/45"/>
+      </Carousel>
     </div>
-    
   );
 }
 

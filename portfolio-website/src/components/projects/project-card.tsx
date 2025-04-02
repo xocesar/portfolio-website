@@ -8,22 +8,22 @@ interface ProjectCardProps {
   title: string;
   description: string;
   tags: string[];
-  imageSrc: string | null;
+  imageSrc?: string | null;
   githubUrl?: string;
   demoUrl?: string;
-  isLastOdd?: boolean;
 }
 
-function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, isLastOdd }: ProjectCardProps) {
+function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl }: ProjectCardProps) {
   return (
-    <div className={`bg-[#c6d6ab] rounded-lg shadow-md overflow-hidden duration-300 ${isLastOdd ? 'col-span-2' : ''}`}>
-      <div className="relative h-60 w-full">
+    <div className={`bg-[#c6d6ab] rounded-lg shadow-md overflow-hidden duration-300`}>
+      <div className="relative w-full">
         {imageSrc && (
           <Image
             src={imageSrc}
             alt={title}
-            fill
-            className="object-cover object-top"
+            width={800}
+            height={450}
+            className="object-cover w-full"
           />
         )}
       </div>
