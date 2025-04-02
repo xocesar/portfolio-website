@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import ProjectCard from "./cards";
+import ProjectCard from "./project-card";
 
 interface Project {
   title: string;

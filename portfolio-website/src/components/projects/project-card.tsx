@@ -46,7 +46,7 @@ function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, i
               href={githubUrl}
               className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition-colors"
             >
-              <FaGithub />
+              <FaGithub/>
               <span>GitHub</span>
             </Link>
           )}
@@ -56,7 +56,7 @@ function ProjectCard({ title, description, tags, imageSrc, githubUrl, demoUrl, i
               href={demoUrl}
               className="flex items-center gap-2 px-4 py-2 bg-[#3b580c] text-white rounded hover:bg-[#2a4009] transition-colors"
             >
-              <HiExternalLink />
+              <HiExternalLink/>
               <span>Website Link</span>
             </Link>
           )}
