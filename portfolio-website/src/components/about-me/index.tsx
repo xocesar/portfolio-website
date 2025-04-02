@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import WorkCard from "@/components/about-me/current-work-card";
+import WorkCard from "@/components/about-me/work-card";
 import Technologies from "@/components/technologies";
 
 export default function AboutMe() {
