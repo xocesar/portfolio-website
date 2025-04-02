@@ -15,14 +15,14 @@ export default function Home() {
       <motion.div 
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ root: scrollRef }}
+      viewport={{ root: scrollRef, once: true }}
       transition={{type: "anticipate", duration: 1}}
       >
         <Header />
       </motion.div>
 
         <div className="flex flex-col items-center ">
-          <AboutMe />
+          <AboutMe />  
           <ProjectGrid />
         </div>
       

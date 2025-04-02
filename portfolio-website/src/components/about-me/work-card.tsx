@@ -1,8 +1,8 @@
-"use client"
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {motion} from "motion/react"
+
 
 interface WorkCardProps {
   title: string;
@@ -16,10 +16,8 @@ interface WorkCardProps {
 
 function WorkCard({ title, description, tags, company, url, startDate, endDate }: WorkCardProps) {
   return (
-    <motion.div
-    whileHover={{scale: 1.05}}
-    whileTap={{scale: 0.95}}
-    className={`bg-[#c6d6ab] rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full mt-4`}>
+    <div
+    className={`bg-[#c6d6ab] rounded-lg overflow-hidden shadow-md duration-300 w-full mt-4`}>
       <div className="p-6">
         <div className="flex flex-col items-start justify-center gap-2 mb-4">
           <h1 className="text-2xl font-extrabold">{company}</h1>
@@ -47,7 +45,7 @@ function WorkCard({ title, description, tags, company, url, startDate, endDate }
           )}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

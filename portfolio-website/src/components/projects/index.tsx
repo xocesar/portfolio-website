@@ -37,7 +37,7 @@ function ProjectGrid() {
   }, []);
 
   if (projects.length === 0) {
-    return <div>No projects yet</div>;
+    return <div>No projects yet, I am working on it!</div>;
   }
 
   return (
