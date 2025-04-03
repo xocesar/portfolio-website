@@ -30,14 +30,14 @@ function ProjectGrid() {
         description: "Designed and developed my personal portfolio website to showcase my projects and skills.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         imageSrc: "/projects/portfolio.png",
-        githubUrl: "https://github.com/xocesar/portfolio-website",
+        githubUrl: "https://viy4y3c6s9.ufs.sh/f/idMii2sEyT63PgQM0YUuBr0gXyntoi8qJkL2DblVKIefSOap",
         demoUrl: "https://cesarquesada.dev"
       },
       {
         title: "The Four Brothers Home Care Website", 
         description: "Designed and developed a website for a nursing home in Toa Baja, Puerto Rico.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: "/projects/4brothers.png",
+        imageSrc: "https://viy4y3c6s9.ufs.sh/f/idMii2sEyT63tmfoWjKYPzHK5iARhbesocCVj4TLm1lF9WIE",
         demoUrl: "https://4brothers.vercel.app/",
       },
     ];
