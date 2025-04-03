@@ -29,8 +29,8 @@ function ProjectGrid() {
         title: "Personal Portfolio Website",
         description: "Designed and developed my personal portfolio website to showcase my projects and skills.",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: "/projects/portfolio.png",
-        githubUrl: "https://viy4y3c6s9.ufs.sh/f/idMii2sEyT63PgQM0YUuBr0gXyntoi8qJkL2DblVKIefSOap",
+        imageSrc: "https://viy4y3c6s9.ufs.sh/f/idMii2sEyT63PgQM0YUuBr0gXyntoi8qJkL2DblVKIefSOap",
+        githubUrl: "https://github.com/xocesar/portfolio-website",
         demoUrl: "https://cesarquesada.dev"
       },
       {
