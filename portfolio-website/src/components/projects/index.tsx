@@ -46,7 +46,9 @@ function ProjectGrid() {
   }, []);
 
   if (projects.length === 0) {
-    return <div>No projects yet, I am working on it!</div>;
+    return <div>
+      <h1 className="text-3xl font-extrabold p-8 text-center items-center">Loading projects...</h1>
+          </div>;
   }
 
 
