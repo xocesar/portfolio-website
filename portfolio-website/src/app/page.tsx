@@ -2,9 +2,12 @@
 import { motion } from "motion/react";
 import React from "react";
 import ProjectGrid from "@/components/projects";
+import CertificationGrid from "@/components/Certifications";
 import AboutMe from "@/components/about-me";
 import Header from "@/components/page-header";
 import { useRef } from "react";
+
+
 export default function Home() {
   const scrollRef = useRef(null)
   return (
@@ -24,6 +27,8 @@ export default function Home() {
         <div className="flex flex-col items-center ">
           <AboutMe />  
           <ProjectGrid />
+          <CertificationGrid />
+
         </div>
       
         

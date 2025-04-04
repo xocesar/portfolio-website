@@ -47,14 +47,14 @@ function ProjectGrid() {
 
   if (projects.length === 0) {
     return <div>
-      <h1 className="text-3xl font-extrabold p-8 text-center items-center">Loading projects...</h1>
+      <h1 className="text-2xl font-extrabold p-4 text-center items-center bg-black/10 rounded-3xl my-8">Loading projects...</h1>
           </div>;
   }
 
 
 
   return (
-    <div className="flex flex-col items-center justify-center border-t-2 border-[#3b580c] pt-8 pb-16">
+    <div className="flex flex-col items-center justify-center border-t-2 border-[#3b580c] pt-8">
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
         <h1 className="text-4xl font-extrabold">Projects</h1>
         <p className="text-lg text-gray-700 text-justify">
