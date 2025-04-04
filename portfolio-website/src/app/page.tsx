@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import ProjectGrid from "@/components/projects";
-import CertificationGrid from "@/components/Certifications";
+import CertificationGrid from "@/components/certifications";
 import AboutMe from "@/components/about-me";
 import Header from "@/components/page-header";
 import { useRef } from "react";

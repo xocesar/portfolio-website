@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import CertificationCard from "./certification-card";
+import CertificationCard from "@/components/certifications/certification-card";
 import {
   Carousel,
   CarouselContent,
@@ -45,7 +45,7 @@ function CertificationGrid() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center pt-8 pb-16 max-w-4xl">
+    <div className="flex flex-col items-center justify-center pt-8 pb-16 max-w-4xl mx-2">
       <div className="flex flex-col justify-center py-8 gap-2 p-2">
         <h1 className="text-4xl font-extrabold ">Certifications</h1>
         <p className="text-lg text-gray-700 text-justify">
