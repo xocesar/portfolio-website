@@ -28,7 +28,7 @@ function CertificationGrid() {
         company: "Udemy",
         description: "Next.js Dev to Deployment",
         certification: "Next.js 15 and react 18 course",
-        url: "www.google.com",
+        url: "https://viy4y3c6s9.ufs.sh/f/idMii2sEyT639GFWIUkyDsVczP7I2LtvUi3yMKH1aXBOrF4A",
         date: "Febuary 2025",
       }
     ];
@@ -47,9 +47,9 @@ function CertificationGrid() {
   return (
     <div className="flex flex-col items-center justify-center border-t-2 border-[#3b580c] pt-8 pb-16">
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
-        <h1 className="text-4xl font-extrabold">Projects</h1>
+        <h1 className="text-4xl font-extrabold">Certifications</h1>
         <p className="text-lg text-gray-700 text-justify">
-          Here are some of the projects I have worked on. Feel free to check them out on GitHub or view the live demo.
+          These are the certifications that I have obtained up until now. 
         </p>
       </div>
       {/* This is for small displays because the carousel componnent is tricky on smaller displays */}
