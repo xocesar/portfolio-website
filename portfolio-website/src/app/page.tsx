@@ -14,7 +14,7 @@ export default function Home() {
     <div className="bg-[#eedccd] text-[#3b580c]">
      
 
-      {/* Fades it in when in view */}
+      {/* Fades it in when in view and slided from top*/}
       <motion.div 
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -23,16 +23,18 @@ export default function Home() {
       >
         <Header />
       </motion.div>
-
-        <div className="flex flex-col items-center ">
+        {/* Makes it fade into view */}
+        <motion.div className="flex flex-col items-center "
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1}}
+        >
           <AboutMe /> 
           <CertificationGrid /> 
           <ProjectGrid />
           
 
-        </div>
-      
-        
+        </motion.div>
       
       
       
