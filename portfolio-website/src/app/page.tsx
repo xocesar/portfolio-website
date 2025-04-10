@@ -25,9 +25,10 @@ export default function Home() {
       </motion.div>
 
         <div className="flex flex-col items-center ">
-          <AboutMe />  
+          <AboutMe /> 
+          <CertificationGrid /> 
           <ProjectGrid />
-          <CertificationGrid />
+          
 
         </div>
       

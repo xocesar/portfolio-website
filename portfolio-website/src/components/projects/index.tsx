@@ -54,7 +54,7 @@ function ProjectGrid() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center border-t-2 border-[#3b580c] pt-8">
+    <div className="flex flex-col items-center justify-center pt-8 pb-16">
       <div className="flex flex-col items-center justify-center py-8 gap-2 p-2">
         <h1 className="text-4xl font-extrabold">Projects</h1>
         <p className="text-lg text-gray-700 text-justify">
