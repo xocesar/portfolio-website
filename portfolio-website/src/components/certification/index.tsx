@@ -36,13 +36,6 @@ function CertificationGrid() {
     setCertifications(certificationData);
   }, []);
 
-  if (certification.length === 0) {
-    return <div>
-      <h1 className="text-2xl font-extrabold p-4 text-center items-center bg-black/5 rounded-3xl my-8">Loading projects...</h1>
-          </div>;
-  }
-
-
 
   return (
     <div className="flex flex-col items-center justify-center w-full border-t-2 border-[#3b580c] max-w-4xl pt-8 ">

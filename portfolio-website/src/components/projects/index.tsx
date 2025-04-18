@@ -45,12 +45,6 @@ function ProjectGrid() {
     setProjects(projectsData);
   }, []);
 
-  if (projects.length === 0) {
-    return <div>
-      <h1 className="text-2xl font-extrabold p-4 text-center items-center bg-black/10 rounded-3xl my-8">Loading projects...</h1>
-          </div>;
-  }
-
 
 
   return (
