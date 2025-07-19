@@ -22,10 +22,19 @@ export default function AboutMe() {
          tags={["Next.js", "React", ".NET", "Prisma"]} 
          company="Enalca LLC." 
          url="https://www.enalca.com"
-         startDate="2024"
-         endDate="Present"
+         startDate="Oct 2024"
+         endDate="May 2025"
           />
 
+        <WorkCard
+         title="I.T. Helpdesk" 
+         description="I am currently working at Intelligent Solutions as an I.T. Helpdesk technician in HealthProMed in Santurce, Puerto Rico. I am responsible for providing technical support to the employees of the company and ensuring that all systems are running smoothly." 
+         tags={["Windows", "Troubleshooting", "Customer Service"]} 
+         company="Intelligent Solutions" 
+         url="https://intelligentsolutionspr.com/"
+         startDate="June 2025"
+         endDate="Present"
+          />
       </div>
       
     </div>
