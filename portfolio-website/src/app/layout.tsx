@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Roboto } from "next/font/google";
-
+import Footer from "@/components/footer";
+// import Navbar from "@/components/navbar";
 const roboto = Roboto({
   weight: ['400', '700'],
   subsets: ['latin'],
 });
 
-import Navbar from "@/components/nav-bar";
-import Footer from "@/components/footer";
+
+
 export const metadata: Metadata = {
-  title: "Cesar A. Quesada's Portfolio",
+  title: "Cesar A. Quesada's Portfolio Website",
   description: "Personal website of Cesar A. Quesada",
 };
 

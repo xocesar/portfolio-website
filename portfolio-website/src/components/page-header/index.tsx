@@ -15,7 +15,7 @@ function Header() {
   return (
     <div className="min-h-screen flex flex-col justify-between items-center">
       <div className="flex-1 flex items-center">
-        <div className="flex flex-col md:flex-row items-center md:items-start max-w-4xl md:space-x-6 md:space-y-0 space-y-10">
+        <div className="flex flex-col md:flex-row items-center md:items-start max-w-4xl md:space-x-6 md:space-y-0 space-y-10 shadow-md hover:shadow-2xl transition duration-500 p-10 rounded-3xl">
           {/* Profile image */}
           <Image src={"https://viy4y3c6s9.ufs.sh/f/idMii2sEyT63DD6f7MRyvHixX19JU3Sb60gtMRjqOQ78IWYw"} alt={"Profile Image"} width={150} height={150} className="rounded-full" />
 
